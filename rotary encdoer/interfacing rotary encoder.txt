@@ -1,0 +1,64 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 16000000
+
+int counter = 0;
+
+void main() {
+    
+    // interrupts
+    GIE = 1;
+    PEIE = 1;
+    INTE = 1;
+    
+    // GPIO pins
+    TRISB0 = 1; // IRQ pin for rotary encoder
+    TRISD1 = 1; // rotary encoder direction checking pin
+    TRISD2 = 1; // rotary encoder button
+    TRISD3 = 0; // oscilloscope checking pin
+    RD3 = 0;
+    
+    // IRQ pin
+    INTEDG = 1;
+    
+    while(1) {
+        if(RD2){
+            for(int i = counter; i>0; i--){
+                RD3 = 1;
+                __delay_ms(10);
+                RD3 = 0;
+                __delay_ms(10);
+            }
+//            counter = 0;
+            __delay_ms(300);
+        }
+    }
+    
+    return;
+}
+
+void __interrupt() ISR(void) {
+    
+    if(INTF) {
+        
+        if(RD1){
+            counter++;
+        }
+        else
+            counter--;
+        
+        __delay_ms(50);
+        
+        INTF = 0;
+    }
+    
+}

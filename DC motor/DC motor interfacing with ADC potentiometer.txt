@@ -1,0 +1,78 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 16000000
+
+int ADC_result;
+
+void PWM_DC(int duty_cycle) {
+    CCP1X = (duty_cycle) & 1;
+    CCP1Y = (duty_cycle) & 2;
+    CCPR1L = (duty_cycle) >> 2;
+    
+    return;
+}
+
+void ADC_read() {
+    __delay_us(22); // delaying the acquisition time
+    GO_DONE = 1;
+    while(GO_DONE) {
+        // waiting for the ADC conversion to finish
+    }
+    ADC_result = (ADRESH << 8) + ADRESL; // reading the analog input
+}
+
+void main() {
+    
+    // ** configuring TRIS modules ** //
+    TRISC2 = 0; // PWM pin for CCP1 module for motor speed control
+    TRISC3 = 0; // direction pin for the motor
+    TRISD0 = 0; // direction pin for the motor
+    TRISD2 = 1; // switch pin to check for motor direction input
+    
+    // ** configuring CCP1 module for PWM ** //
+    CCP1M3 = 1; // setting CCP1 module for PWM mode
+    CCP1M2 = 1; 
+    PR2 = 249; // setting the PWM frequency to 4kHz at 10-bit frequency
+    T2CKPS1 = 0; // setting prescalar to 4
+    T2CKPS0 = 1; 
+    TMR2ON = 1; // turning on timer 2
+    
+    // ** configuring ADC module for continious reading 1 analog input ** //
+    ADCS2 = 0; // setting clock-source conversion factor to 32
+    ADCS1 = 1; 
+    ADCS0 = 0; 
+    CHS2 = 0; // selecting AN0 or RA0 to be the analog input channel
+    CHS1 = 0; 
+    CHS0 = 0; 
+    ADON = 1; // giving power to the ADC module
+    ADFM = 1; // setting for right justification
+
+    // Main Routine
+    while(1) {
+        
+        ADC_read(); // reading the analog value of RA0 and assigning it to ADC_result
+        PWM_DC(ADC_result); // setting the PWM to the analog input
+        
+        // checking RD2 switch pin for the motor direction
+        if(RD2) {
+            RC3 = 0;
+            RD0 = 1;
+        }
+        else {
+            RC3 = 1;
+            RD0 = 0;
+        }
+    }
+    
+    
+    return;
+}

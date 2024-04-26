@@ -1,0 +1,89 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 8000000
+
+int period = 0; // counter for PWM period
+int duty_cycle = 0; // counter for PWM duty cycle
+int DC_value = 8; // the value that will determine the duty cycle, at 8, it should give 0.8ms on time of the duty cycle
+int ADC_result;
+
+void ADC_read() {
+    __delay_us(25); // delay for acquisition time
+    GO_DONE = 1; // start conversion time
+    while(GO_DONE) { // waiting until conversion is finished
+    }
+    ADC_result = (ADRESH << 8) + ADRESL; // assigning the result for right justification
+}
+
+void main() {
+    
+    // ** configuring GPIO pins ** //
+    TRISD1 = 0; // PWM output for servo motor using TMR0 and interrupts
+    
+    // ** configuring interrupts ** //
+    GIE = 1;
+    PEIE = 1;
+    TMR0IE = 1;
+    
+    // ** configuring TMR0 ** //
+    T0CS = 0; // TMR0 to timer mode
+    PSA = 0;
+    PS2 = 0; // TMR0 Pre-scalar = 2
+    PS1 = 0;
+    PS0 = 0;
+    TMR0 = 67;
+    
+    // ** configuring ADC for pin AN0 continuous sampling ** //
+    ADCS2 = 0; // clock-source has 32 as a factor
+    ADCS1 = 1;
+    ADCS0 = 0;
+    CHS2 = 0; // choosing pin AN0
+    CHS1 = 0;
+    CHS0 = 0;
+    ADON = 1; // Power to ADC module
+    ADFM = 1; // right justification
+    PCFG3 = 1; // setting VDD and VSS as voltage references and only AN0 to be analogue pin
+    PCFG2 = 1;
+    PCFG1 = 1;
+    PCFG0 = 0;
+    
+    // Main Routine
+    while(1) {
+        ADC_read();
+        ADC_result /= 50;
+        DC_value = 5 + ADC_result;
+    }
+    
+    return;
+}
+
+void __interrupt() ISR(void) {
+    
+    if(TMR0IF) {
+        TMR0 = 67; // Pre-loading TMR0 so it overflows after 0.0001 seconds
+        period++;
+        duty_cycle++;
+        
+        if(period == 200) {
+            period = 0;
+            duty_cycle = 0;
+            RD1 = 1;
+        }
+        if(duty_cycle == DC_value) {
+            RD1 = 0;
+        }
+        
+        
+        TMR0IF = 0;
+    }
+    
+}

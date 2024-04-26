@@ -1,0 +1,132 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 22, 2019, 6:37 AM
+ */
+
+
+#include <xc.h>
+#include "config.h"
+
+#define _XTAL_FREQ 20000000
+
+void clockwise() {
+    while(1) { 
+        RB2 = 1;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 1;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 1;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 1;
+        __delay_ms(100);
+    }
+}
+
+
+void step(int step_count) {
+    for(int a = step_count; a > 0; a--) {
+        RB2 = 1;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 1;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 1;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 1;
+        __delay_ms(100);
+    }
+}
+
+void anticlockwise() {
+    while(1) { 
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 1;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 1;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 1;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 1;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+    }
+}
+
+void Rstep(int step_count) {
+    for(int a = step_count; a > 0; a--) {
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 1;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 1;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 0;
+        RB3 = 0;
+        RB4 = 1;
+        RB5 = 0;
+        __delay_ms(100);
+        RB2 = 1;
+        RB3 = 0;
+        RB4 = 0;
+        RB5 = 0;
+        __delay_ms(100);
+    }
+}
+
+void main() {
+    
+    TRISB2 = 0;
+    TRISB3 = 0;
+    TRISB4 = 0;
+    TRISB5 = 0;
+   
+    
+    step(51);  // clockwise step 51 times, 360 degrees
+    
+    __delay_ms(5000);
+    
+    Rstep(51);  // anti-clockwise step 51 times, 360 degrees
+    
+    __delay_ms(5000);
+    
+    return;
+}

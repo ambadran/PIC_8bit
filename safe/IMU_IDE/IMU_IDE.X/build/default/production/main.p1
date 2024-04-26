@@ -1,0 +1,1594 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"9517 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9517: extern volatile __bit TRMT __attribute__((address(0x7D61)));
+[v _TRMT `Vb ~T0 @X0 0 e@32097 ]
+"4449
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4449: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
+[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
+[v F2783 `(v ~T0 @X0 1 tf1`ul ]
+"203 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/pic18.h
+[v __delay `JF2783 ~T0 @X0 0 e ]
+[p i __delay ]
+"9577 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9577: extern volatile __bit TXEN __attribute__((address(0x7D65)));
+[v _TXEN `Vb ~T0 @X0 0 e@32101 ]
+"7996
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7996: extern volatile __bit CREN __attribute__((address(0x7D5C)));
+[v _CREN `Vb ~T0 @X0 0 e@32092 ]
+"9286
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9286: extern volatile __bit SYNC __attribute__((address(0x7D64)));
+[v _SYNC `Vb ~T0 @X0 0 e@32100 ]
+"9205
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9205: extern volatile __bit SPEN __attribute__((address(0x7D5F)));
+[v _SPEN `Vb ~T0 @X0 0 e@32095 ]
+"7837
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7837: extern volatile __bit BRG16 __attribute__((address(0x7DC3)));
+[v _BRG16 `Vb ~T0 @X0 0 e@32195 ]
+"7840
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7840: extern volatile __bit BRGH __attribute__((address(0x7D62)));
+[v _BRGH `Vb ~T0 @X0 0 e@32098 ]
+"9511
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9511: extern volatile __bit TRISC6 __attribute__((address(0x7CA6)));
+[v _TRISC6 `Vb ~T0 @X0 0 e@31910 ]
+"9514
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9514: extern volatile __bit TRISC7 __attribute__((address(0x7CA7)));
+[v _TRISC7 `Vb ~T0 @X0 0 e@31911 ]
+"4473
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4473: extern volatile unsigned char SPBRG __attribute__((address(0xFAF)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@4015 ]
+"8530
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 8530: extern volatile __bit GIE __attribute__((address(0x7F97)));
+[v _GIE `Vb ~T0 @X0 0 e@32663 ]
+"8950
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 8950: extern volatile __bit PEIE __attribute__((address(0x7F96)));
+[v _PEIE `Vb ~T0 @X0 0 e@32662 ]
+"9106
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9106: extern volatile __bit RCIE __attribute__((address(0x7CED)));
+[v _RCIE `Vb ~T0 @X0 0 e@31981 ]
+"9109
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9109: extern volatile __bit RCIF __attribute__((address(0x7CF5)));
+[v _RCIF `Vb ~T0 @X0 0 e@31989 ]
+"4461
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4461: extern volatile unsigned char RCREG __attribute__((address(0xFAE)));
+[v _RCREG `Vuc ~T0 @X0 0 e@4014 ]
+"9478
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9478: extern volatile __bit TRISB0 __attribute__((address(0x7C98)));
+[v _TRISB0 `Vb ~T0 @X0 0 e@31896 ]
+"9481
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9481: extern volatile __bit TRISB1 __attribute__((address(0x7C99)));
+[v _TRISB1 `Vb ~T0 @X0 0 e@31897 ]
+"5693
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5693:     struct {
+[s S244 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S244 . SSPM CKP SSPEN SSPOV WCOL ]
+"5700
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5700:     struct {
+[s S245 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S245 . SSPM0 SSPM1 SSPM2 SSPM3 ]
+"5692
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5692: typedef union {
+[u S243 `S244 1 `S245 1 ]
+[n S243 . . . ]
+"5707
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5707: extern volatile SSPCON1bits_t SSPCON1bits __attribute__((address(0xFC6)));
+[v _SSPCON1bits `VS243 ~T0 @X0 0 e@4038 ]
+"5625
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5625: extern volatile unsigned char SSPCON2 __attribute__((address(0xFC5)));
+[v _SSPCON2 `Vuc ~T0 @X0 0 e@4037 ]
+"5757
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5757: extern volatile unsigned char SSPSTAT __attribute__((address(0xFC7)));
+[v _SSPSTAT `Vuc ~T0 @X0 0 e@4039 ]
+"6005
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6005: extern volatile unsigned char SSPADD __attribute__((address(0xFC8)));
+[v _SSPADD `Vuc ~T0 @X0 0 e@4040 ]
+"9181
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9181: extern volatile __bit SEN __attribute__((address(0x7E28)));
+[v _SEN `Vb ~T0 @X0 0 e@32296 ]
+"8956
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 8956: extern volatile __bit PEN __attribute__((address(0x7E2A)));
+[v _PEN `Vb ~T0 @X0 0 e@32298 ]
+"9136
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9136: extern volatile __bit RSEN __attribute__((address(0x7E29)));
+[v _RSEN `Vb ~T0 @X0 0 e@32297 ]
+"7729
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7729: extern volatile __bit ACKDT __attribute__((address(0x7E2D)));
+[v _ACKDT `Vb ~T0 @X0 0 e@32301 ]
+"7732
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7732: extern volatile __bit ACKEN __attribute__((address(0x7E2C)));
+[v _ACKEN `Vb ~T0 @X0 0 e@32300 ]
+"6012
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6012: extern volatile unsigned char SSPBUF __attribute__((address(0xFC9)));
+[v _SSPBUF `Vuc ~T0 @X0 0 e@4041 ]
+"7735
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7735: extern volatile __bit ACKSTAT __attribute__((address(0x7E2E)));
+[v _ACKSTAT `Vb ~T0 @X0 0 e@32302 ]
+"9100
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9100: extern volatile __bit RCEN __attribute__((address(0x7E2B)));
+[v _RCEN `Vb ~T0 @X0 0 e@32299 ]
+"5763
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5763:     struct {
+[s S247 :2 `uc 1 :1 `uc 1 ]
+[n S247 . . R_NOT_W ]
+"5767
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5767:     struct {
+[s S248 :5 `uc 1 :1 `uc 1 ]
+[n S248 . . D_NOT_A ]
+"5771
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5771:     struct {
+[s S249 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S249 . BF UA R_nW S P D_nA CKE SMP ]
+"5781
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5781:     struct {
+[s S250 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S250 . . R_W . D_A ]
+"5787
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5787:     struct {
+[s S251 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S251 . . I2C_READ I2C_START I2C_STOP I2C_DAT ]
+"5794
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5794:     struct {
+[s S252 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S252 . . nW . nA ]
+"5800
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5800:     struct {
+[s S253 :2 `uc 1 :1 `uc 1 ]
+[n S253 . . NOT_WRITE ]
+"5804
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5804:     struct {
+[s S254 :5 `uc 1 :1 `uc 1 ]
+[n S254 . . NOT_ADDRESS ]
+"5808
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5808:     struct {
+[s S255 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S255 . . nWRITE . nADDRESS ]
+"5814
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5814:     struct {
+[s S256 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S256 . . READ_WRITE . DATA_ADDRESS ]
+"5820
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5820:     struct {
+[s S257 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S257 . . R . D ]
+"5826
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5826:     struct {
+[s S258 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S258 . . RW START STOP DA ]
+"5833
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5833:     struct {
+[s S259 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S259 . . NOT_W . NOT_A ]
+"5762
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5762: typedef union {
+[u S246 `S247 1 `S248 1 `S249 1 `S250 1 `S251 1 `S252 1 `S253 1 `S254 1 `S255 1 `S256 1 `S257 1 `S258 1 `S259 1 ]
+[n S246 . . . . . . . . . . . . . . ]
+"5840
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5840: extern volatile SSPSTATbits_t SSPSTATbits __attribute__((address(0xFC7)));
+[v _SSPSTATbits `VS246 ~T0 @X0 0 e@4039 ]
+"9217
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9217: extern volatile __bit SSPIE __attribute__((address(0x7CEB)));
+[v _SSPIE `Vb ~T0 @X0 0 e@31979 ]
+"9220
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9220: extern volatile __bit SSPIF __attribute__((address(0x7CF3)));
+[v _SSPIF `Vb ~T0 @X0 0 e@31987 ]
+[p mainexit ]
+"9502
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9502: extern volatile __bit TRISC0 __attribute__((address(0x7CA0)));
+[v _TRISC0 `Vb ~T0 @X0 0 e@31904 ]
+"2372
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2372:     struct {
+[s S100 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S100 . RC0 RC1 RC2 . RC4 RC5 RC6 RC7 ]
+"2382
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2382:     struct {
+[s S101 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S101 . T1OSO T1OSI CCP1 . TX RX ]
+"2390
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2390:     struct {
+[s S102 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S102 . T13CKI . P1A . CK DT ]
+"2398
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2398:     struct {
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . . CCP2 PA1 ]
+"2403
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2403:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 ]
+[n S104 . . PA2 ]
+"2371
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2371: typedef union {
+[u S99 `S100 1 `S101 1 `S102 1 `S103 1 `S104 1 ]
+[n S99 . . . . . . ]
+"2408
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2408: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
+[v _PORTCbits `VS99 ~T0 @X0 0 e@3970 ]
+"9487
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 9487: extern volatile __bit TRISB3 __attribute__((address(0x7C9B)));
+[v _TRISB3 `Vb ~T0 @X0 0 e@31899 ]
+"2262
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2262:     struct {
+[s S96 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S96 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"2272
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2272:     struct {
+[s S97 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S97 . INT0 INT1 INT2 . PGM PGC PGD ]
+"2281
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2281:     struct {
+[s S98 :3 `uc 1 :1 `uc 1 ]
+[n S98 . . CCP2_PA2 ]
+"2261
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2261: typedef union {
+[u S95 `S96 1 `S97 1 `S98 1 ]
+[n S95 . . . . ]
+"2286
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2286: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
+[v _PORTBbits `VS95 ~T0 @X0 0 e@3969 ]
+[t ~ __interrupt . k ]
+[t T21 __interrupt ]
+"54 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 54: __asm("UFRM equ 0F66h");
+[; <" UFRM equ 0F66h ;# ">
+"61
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 61: __asm("UFRML equ 0F66h");
+[; <" UFRML equ 0F66h ;# ">
+"139
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 139: __asm("UFRMH equ 0F67h");
+[; <" UFRMH equ 0F67h ;# ">
+"179
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 179: __asm("UIR equ 0F68h");
+[; <" UIR equ 0F68h ;# ">
+"235
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 235: __asm("UIE equ 0F69h");
+[; <" UIE equ 0F69h ;# ">
+"291
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 291: __asm("UEIR equ 0F6Ah");
+[; <" UEIR equ 0F6Ah ;# ">
+"342
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 342: __asm("UEIE equ 0F6Bh");
+[; <" UEIE equ 0F6Bh ;# ">
+"393
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 393: __asm("USTAT equ 0F6Ch");
+[; <" USTAT equ 0F6Ch ;# ">
+"453
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 453: __asm("UCON equ 0F6Dh");
+[; <" UCON equ 0F6Dh ;# ">
+"504
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 504: __asm("UADDR equ 0F6Eh");
+[; <" UADDR equ 0F6Eh ;# ">
+"568
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 568: __asm("UCFG equ 0F6Fh");
+[; <" UCFG equ 0F6Fh ;# ">
+"647
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 647: __asm("UEP0 equ 0F70h");
+[; <" UEP0 equ 0F70h ;# ">
+"755
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 755: __asm("UEP1 equ 0F71h");
+[; <" UEP1 equ 0F71h ;# ">
+"863
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 863: __asm("UEP2 equ 0F72h");
+[; <" UEP2 equ 0F72h ;# ">
+"971
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 971: __asm("UEP3 equ 0F73h");
+[; <" UEP3 equ 0F73h ;# ">
+"1079
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1079: __asm("UEP4 equ 0F74h");
+[; <" UEP4 equ 0F74h ;# ">
+"1187
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1187: __asm("UEP5 equ 0F75h");
+[; <" UEP5 equ 0F75h ;# ">
+"1295
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1295: __asm("UEP6 equ 0F76h");
+[; <" UEP6 equ 0F76h ;# ">
+"1403
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1403: __asm("UEP7 equ 0F77h");
+[; <" UEP7 equ 0F77h ;# ">
+"1511
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1511: __asm("UEP8 equ 0F78h");
+[; <" UEP8 equ 0F78h ;# ">
+"1587
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1587: __asm("UEP9 equ 0F79h");
+[; <" UEP9 equ 0F79h ;# ">
+"1663
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1663: __asm("UEP10 equ 0F7Ah");
+[; <" UEP10 equ 0F7Ah ;# ">
+"1739
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1739: __asm("UEP11 equ 0F7Bh");
+[; <" UEP11 equ 0F7Bh ;# ">
+"1815
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1815: __asm("UEP12 equ 0F7Ch");
+[; <" UEP12 equ 0F7Ch ;# ">
+"1891
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1891: __asm("UEP13 equ 0F7Dh");
+[; <" UEP13 equ 0F7Dh ;# ">
+"1967
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 1967: __asm("UEP14 equ 0F7Eh");
+[; <" UEP14 equ 0F7Eh ;# ">
+"2043
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2043: __asm("UEP15 equ 0F7Fh");
+[; <" UEP15 equ 0F7Fh ;# ">
+"2119
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2119: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"2258
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2258: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"2368
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2368: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"2510
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2510: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"2549
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2549: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"2649
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2649: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"2761
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2761: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"2839
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2839: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"2844
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 2844: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"3037
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3037: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"3042
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3042: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"3259
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3259: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"3264
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3264: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"3413
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3413: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"3472
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3472: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"3543
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3543: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"3614
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3614: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"3685
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3685: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"3756
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3756: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"3827
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3827: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3898
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3898: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3964
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3964: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3971
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3971: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3978
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3978: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3985
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3985: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3990
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 3990: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"4195
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4195: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"4200
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4200: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"4451
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4451: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"4456
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4456: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"4463
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4463: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"4468
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4468: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"4475
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4475: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"4480
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4480: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"4487
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4487: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"4494
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4494: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"4615
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4615: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"4622
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4622: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"4629
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4629: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"4636
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4636: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"4726
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4726: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"4811
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4811: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"4816
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4816: __asm("CCP1AS equ 0FB6h");
+[; <" CCP1AS equ 0FB6h ;# ">
+"4941
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4941: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4946
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4946: __asm("CCP1DEL equ 0FB7h");
+[; <" CCP1DEL equ 0FB7h ;# ">
+"4981
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4981: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4986
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 4986: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"5161
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5161: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"5225
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5225: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"5232
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5232: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"5239
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5239: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"5246
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5246: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"5310
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5310: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"5317
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5317: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"5324
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5324: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"5331
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5331: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"5402
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5402: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"5487
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5487: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"5606
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5606: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"5613
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5613: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"5620
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5620: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"5627
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5627: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5689
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5689: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5759
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 5759: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"6007
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6007: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"6014
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6014: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"6021
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6021: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"6119
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6119: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"6124
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6124: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"6229
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6229: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"6236
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6236: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"6339
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6339: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"6346
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6346: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"6353
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6353: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"6360
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6360: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"6509
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6509: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"6537
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6537: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"6542
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6542: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6807
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6807: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6890
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6890: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6960
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6960: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6967
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6967: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6974
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6974: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6981
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 6981: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"7052
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7052: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"7059
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7059: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"7066
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7066: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"7073
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7073: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"7080
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7080: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"7087
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7087: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"7094
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7094: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"7101
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7101: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"7108
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7108: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"7115
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7115: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"7122
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7122: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"7129
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7129: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"7136
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7136: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"7143
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7143: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"7150
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7150: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"7157
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7157: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"7164
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7164: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"7171
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7171: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"7178
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7178: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"7185
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7185: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"7192
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7192: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"7199
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7199: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"7206
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7206: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"7213
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7213: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"7220
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7220: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"7227
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7227: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"7234
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7234: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"7326
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7326: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"7403
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7403: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"7520
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7520: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"7527
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7527: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"7534
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7534: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"7541
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7541: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"7550
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7550: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"7557
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7557: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"7564
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7564: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"7571
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7571: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"7580
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7580: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"7587
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7587: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"7594
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7594: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"7601
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7601: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"7608
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7608: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"7615
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7615: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"7691
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7691: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"7698
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7698: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"7705
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7705: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7712
+[; ;/Applications/microchip/mplabx/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8/pic/include/proc/pic18f2550.h: 7712: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"6 ./config.h
+[p x PLLDIV  =  4        ]
+"7
+[p x CPUDIV  =  OSC1_PLL2 ]
+"8
+[p x USBDIV  =  1        ]
+"11
+[p x FOSC  =  HSPLL_HS   ]
+"12
+[p x FCMEN  =  OFF       ]
+"13
+[p x IESO  =  OFF        ]
+"16
+[p x PWRT  =  OFF        ]
+"17
+[p x BOR  =  OFF         ]
+"18
+[p x BORV  =  3          ]
+"19
+[p x VREGEN  =  OFF      ]
+"22
+[p x WDT  =  OFF         ]
+"23
+[p x WDTPS  =  32768     ]
+"26
+[p x CCP2MX  =  ON       ]
+"27
+[p x PBADEN  =  OFF      ]
+"28
+[p x LPT1OSC  =  OFF     ]
+"29
+[p x MCLRE  =  OFF       ]
+"32
+[p x STVREN  =  OFF      ]
+"33
+[p x LVP  =  OFF         ]
+"34
+[p x XINST  =  OFF       ]
+"37
+[p x CP0  =  OFF         ]
+"38
+[p x CP1  =  OFF         ]
+"39
+[p x CP2  =  OFF         ]
+"40
+[p x CP3  =  OFF         ]
+"43
+[p x CPB  =  OFF         ]
+"44
+[p x CPD  =  OFF         ]
+"47
+[p x WRT0  =  OFF        ]
+"48
+[p x WRT1  =  OFF        ]
+"49
+[p x WRT2  =  OFF        ]
+"50
+[p x WRT3  =  OFF        ]
+"53
+[p x WRTC  =  OFF        ]
+"54
+[p x WRTB  =  OFF        ]
+"55
+[p x WRTD  =  OFF        ]
+"58
+[p x EBTR0  =  OFF       ]
+"59
+[p x EBTR1  =  OFF       ]
+"60
+[p x EBTR2  =  OFF       ]
+"61
+[p x EBTR3  =  OFF       ]
+"64
+[p x EBTRB  =  OFF       ]
+"6
+[p x PLLDIV  =  4        ]
+"7
+[p x CPUDIV  =  OSC1_PLL2 ]
+"8
+[p x USBDIV  =  1        ]
+"11
+[p x FOSC  =  HSPLL_HS   ]
+"12
+[p x FCMEN  =  OFF       ]
+"13
+[p x IESO  =  OFF        ]
+"16
+[p x PWRT  =  OFF        ]
+"17
+[p x BOR  =  OFF         ]
+"18
+[p x BORV  =  3          ]
+"19
+[p x VREGEN  =  OFF      ]
+"22
+[p x WDT  =  OFF         ]
+"23
+[p x WDTPS  =  32768     ]
+"26
+[p x CCP2MX  =  ON       ]
+"27
+[p x PBADEN  =  OFF      ]
+"28
+[p x LPT1OSC  =  OFF     ]
+"29
+[p x MCLRE  =  OFF       ]
+"32
+[p x STVREN  =  OFF      ]
+"33
+[p x LVP  =  OFF         ]
+"34
+[p x XINST  =  OFF       ]
+"37
+[p x CP0  =  OFF         ]
+"38
+[p x CP1  =  OFF         ]
+"39
+[p x CP2  =  OFF         ]
+"40
+[p x CP3  =  OFF         ]
+"43
+[p x CPB  =  OFF         ]
+"44
+[p x CPD  =  OFF         ]
+"47
+[p x WRT0  =  OFF        ]
+"48
+[p x WRT1  =  OFF        ]
+"49
+[p x WRT2  =  OFF        ]
+"50
+[p x WRT3  =  OFF        ]
+"53
+[p x WRTC  =  OFF        ]
+"54
+[p x WRTB  =  OFF        ]
+"55
+[p x WRTD  =  OFF        ]
+"58
+[p x EBTR0  =  OFF       ]
+"59
+[p x EBTR1  =  OFF       ]
+"60
+[p x EBTR2  =  OFF       ]
+"61
+[p x EBTR3  =  OFF       ]
+"64
+[p x EBTRB  =  OFF       ]
+"4 ./UART.h
+[; ;./UART.h: 4: unsigned char uartReceived;
+[v _uartReceived `uc ~T0 @X0 1 e ]
+"5
+[; ;./UART.h: 5: _Bool received = 0;
+[v _received `a ~T0 @X0 1 e ]
+[i _received
+-> -> 0 `i `a
+]
+"7
+[; ;./UART.h: 7: void print(unsigned char value) {
+[v _print `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _print ]
+[v _value `uc ~T0 @X0 1 r1 ]
+[f ]
+"8
+[; ;./UART.h: 8:     while(!TRMT);
+[e $U 328  ]
+[e :U 329 ]
+[e :U 328 ]
+[e $ ! _TRMT 329  ]
+[e :U 330 ]
+"9
+[; ;./UART.h: 9:     TXREG = value;
+[e = _TXREG _value ]
+"11
+[; ;./UART.h: 11:     _delay((unsigned long)((40)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"12
+[; ;./UART.h: 12: }
+[e :UE 327 ]
+}
+"14
+[; ;./UART.h: 14: void init_UART(long int baud_rate) {
+[v _init_UART `(v ~T0 @X0 1 ef1`l ]
+{
+[e :U _init_UART ]
+[v _baud_rate `l ~T0 @X0 1 r1 ]
+[f ]
+"15
+[; ;./UART.h: 15:     TXEN = 1;
+[e = _TXEN -> -> 1 `i `b ]
+"16
+[; ;./UART.h: 16:     CREN = 1;
+[e = _CREN -> -> 1 `i `b ]
+"17
+[; ;./UART.h: 17:     SYNC = 0;
+[e = _SYNC -> -> 0 `i `b ]
+"18
+[; ;./UART.h: 18:     SPEN = 1;
+[e = _SPEN -> -> 1 `i `b ]
+"19
+[; ;./UART.h: 19:     BRG16 = 0;
+[e = _BRG16 -> -> 0 `i `b ]
+"20
+[; ;./UART.h: 20:     BRGH = 1;
+[e = _BRGH -> -> 1 `i `b ]
+"21
+[; ;./UART.h: 21:     TRISC6 = 1;
+[e = _TRISC6 -> -> 1 `i `b ]
+"22
+[; ;./UART.h: 22:     TRISC7 = 1;
+[e = _TRISC7 -> -> 1 `i `b ]
+"23
+[; ;./UART.h: 23:     SPBRG = (48000000/baud_rate)/16 - 1;
+[e = _SPBRG -> - / / -> 48000000 `l _baud_rate -> -> 16 `i `l -> -> 1 `i `l `uc ]
+"32
+[; ;./UART.h: 32:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"33
+[; ;./UART.h: 33:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"34
+[; ;./UART.h: 34:     RCIE = 1;
+[e = _RCIE -> -> 1 `i `b ]
+"35
+[; ;./UART.h: 35: }
+[e :UE 331 ]
+}
+"37
+[; ;./UART.h: 37: void UART_ISR() {
+[v _UART_ISR `(v ~T0 @X0 1 ef ]
+{
+[e :U _UART_ISR ]
+[f ]
+"38
+[; ;./UART.h: 38:     if(RCIF) {
+[e $ ! _RCIF 333  ]
+{
+"39
+[; ;./UART.h: 39:         uartReceived = RCREG;
+[e = _uartReceived _RCREG ]
+"40
+[; ;./UART.h: 40:         received = 1;
+[e = _received -> -> 1 `i `a ]
+"41
+[; ;./UART.h: 41:         RCIF = 0;
+[e = _RCIF -> -> 0 `i `b ]
+"42
+[; ;./UART.h: 42:     }
+}
+[e :U 333 ]
+"43
+[; ;./UART.h: 43: }
+[e :UE 332 ]
+}
+"6 ./config.h
+[p x PLLDIV  =  4        ]
+"7
+[p x CPUDIV  =  OSC1_PLL2 ]
+"8
+[p x USBDIV  =  1        ]
+"11
+[p x FOSC  =  HSPLL_HS   ]
+"12
+[p x FCMEN  =  OFF       ]
+"13
+[p x IESO  =  OFF        ]
+"16
+[p x PWRT  =  OFF        ]
+"17
+[p x BOR  =  OFF         ]
+"18
+[p x BORV  =  3          ]
+"19
+[p x VREGEN  =  OFF      ]
+"22
+[p x WDT  =  OFF         ]
+"23
+[p x WDTPS  =  32768     ]
+"26
+[p x CCP2MX  =  ON       ]
+"27
+[p x PBADEN  =  OFF      ]
+"28
+[p x LPT1OSC  =  OFF     ]
+"29
+[p x MCLRE  =  OFF       ]
+"32
+[p x STVREN  =  OFF      ]
+"33
+[p x LVP  =  OFF         ]
+"34
+[p x XINST  =  OFF       ]
+"37
+[p x CP0  =  OFF         ]
+"38
+[p x CP1  =  OFF         ]
+"39
+[p x CP2  =  OFF         ]
+"40
+[p x CP3  =  OFF         ]
+"43
+[p x CPB  =  OFF         ]
+"44
+[p x CPD  =  OFF         ]
+"47
+[p x WRT0  =  OFF        ]
+"48
+[p x WRT1  =  OFF        ]
+"49
+[p x WRT2  =  OFF        ]
+"50
+[p x WRT3  =  OFF        ]
+"53
+[p x WRTC  =  OFF        ]
+"54
+[p x WRTB  =  OFF        ]
+"55
+[p x WRTD  =  OFF        ]
+"58
+[p x EBTR0  =  OFF       ]
+"59
+[p x EBTR1  =  OFF       ]
+"60
+[p x EBTR2  =  OFF       ]
+"61
+[p x EBTR3  =  OFF       ]
+"64
+[p x EBTRB  =  OFF       ]
+"3 ./I2C.h
+[; ;./I2C.h: 3: void init_I2C_Master(long int baudRate) {
+[v _init_I2C_Master `(v ~T0 @X0 1 ef1`l ]
+{
+[e :U _init_I2C_Master ]
+[v _baudRate `l ~T0 @X0 1 r1 ]
+[f ]
+"4
+[; ;./I2C.h: 4:     TRISB0 = 1;
+[e = _TRISB0 -> -> 1 `i `b ]
+"5
+[; ;./I2C.h: 5:     TRISB1 = 1;
+[e = _TRISB1 -> -> 1 `i `b ]
+"7
+[; ;./I2C.h: 7:     SSPCON1bits.SSPM = 0b1000;
+[e = . . _SSPCON1bits 0 0 -> -> 8 `i `uc ]
+"8
+[; ;./I2C.h: 8:     SSPCON1bits.SSPEN = 1;
+[e = . . _SSPCON1bits 0 2 -> -> 1 `i `uc ]
+"9
+[; ;./I2C.h: 9:     SSPCON2 = 0x00;
+[e = _SSPCON2 -> -> 0 `i `uc ]
+"10
+[; ;./I2C.h: 10:     SSPSTAT = 0x00;
+[e = _SSPSTAT -> -> 0 `i `uc ]
+"11
+[; ;./I2C.h: 11:     SSPADD = (unsigned char)((48000000/4)/baudRate) - 1;
+[e = _SSPADD -> - -> -> / / -> 48000000 `l -> -> 4 `i `l _baudRate `uc `i -> 1 `i `uc ]
+"12
+[; ;./I2C.h: 12: }
+[e :UE 334 ]
+}
+"14
+[; ;./I2C.h: 14: void wait() {
+[v _wait `(v ~T0 @X0 1 ef ]
+{
+[e :U _wait ]
+[f ]
+"15
+[; ;./I2C.h: 15:   while ((SSPSTAT & 0x04) || (SSPCON2 & 0x1F));
+[e $U 336  ]
+[e :U 337 ]
+[e :U 336 ]
+[e $ || != & -> _SSPSTAT `i -> 4 `i -> 0 `i != & -> _SSPCON2 `i -> 31 `i -> 0 `i 337  ]
+[e :U 338 ]
+"29
+[; ;./I2C.h: 29: }
+[e :UE 335 ]
+}
+"31
+[; ;./I2C.h: 31: void start_condition() {
+[v _start_condition `(v ~T0 @X0 1 ef ]
+{
+[e :U _start_condition ]
+[f ]
+"33
+[; ;./I2C.h: 33:   wait();
+[e ( _wait ..  ]
+"34
+[; ;./I2C.h: 34:   SEN = 1;
+[e = _SEN -> -> 1 `i `b ]
+"35
+[; ;./I2C.h: 35: }
+[e :UE 339 ]
+}
+"37
+[; ;./I2C.h: 37: void stop_condition() {
+[v _stop_condition `(v ~T0 @X0 1 ef ]
+{
+[e :U _stop_condition ]
+[f ]
+"39
+[; ;./I2C.h: 39:   wait();
+[e ( _wait ..  ]
+"40
+[; ;./I2C.h: 40:   PEN = 1;
+[e = _PEN -> -> 1 `i `b ]
+"41
+[; ;./I2C.h: 41: }
+[e :UE 340 ]
+}
+"43
+[; ;./I2C.h: 43: void restart_condition() {
+[v _restart_condition `(v ~T0 @X0 1 ef ]
+{
+[e :U _restart_condition ]
+[f ]
+"45
+[; ;./I2C.h: 45:   wait();
+[e ( _wait ..  ]
+"46
+[; ;./I2C.h: 46:   RSEN = 1;
+[e = _RSEN -> -> 1 `i `b ]
+"47
+[; ;./I2C.h: 47: }
+[e :UE 341 ]
+}
+"49
+[; ;./I2C.h: 49: void sendACK(void) {
+[v _sendACK `(v ~T0 @X0 1 ef ]
+{
+[e :U _sendACK ]
+[f ]
+"51
+[; ;./I2C.h: 51:   wait();
+[e ( _wait ..  ]
+"52
+[; ;./I2C.h: 52:   ACKDT = 0;
+[e = _ACKDT -> -> 0 `i `b ]
+"53
+[; ;./I2C.h: 53:   ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"54
+[; ;./I2C.h: 54: }
+[e :UE 342 ]
+}
+"56
+[; ;./I2C.h: 56: void sendNACK(void) {
+[v _sendNACK `(v ~T0 @X0 1 ef ]
+{
+[e :U _sendNACK ]
+[f ]
+"58
+[; ;./I2C.h: 58:   wait();
+[e ( _wait ..  ]
+"59
+[; ;./I2C.h: 59:   ACKDT = 1;
+[e = _ACKDT -> -> 1 `i `b ]
+"60
+[; ;./I2C.h: 60:   ACKEN = 1;
+[e = _ACKEN -> -> 1 `i `b ]
+"61
+[; ;./I2C.h: 61: }
+[e :UE 343 ]
+}
+"63
+[; ;./I2C.h: 63: unsigned char rawSend(unsigned char data) {
+[v _rawSend `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _rawSend ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"65
+[; ;./I2C.h: 65:   wait();
+[e ( _wait ..  ]
+"66
+[; ;./I2C.h: 66:   SSPBUF = data;
+[e = _SSPBUF _data ]
+"67
+[; ;./I2C.h: 67:   wait();
+[e ( _wait ..  ]
+"68
+[; ;./I2C.h: 68:   return ACKSTAT;
+[e ) -> _ACKSTAT `uc ]
+[e $UE 344  ]
+"69
+[; ;./I2C.h: 69: }
+[e :UE 344 ]
+}
+"71
+[; ;./I2C.h: 71: void sendI2C(unsigned char address, unsigned char data) {
+[v _sendI2C `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _sendI2C ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+[f ]
+"72
+[; ;./I2C.h: 72:     start_condition();
+[e ( _start_condition ..  ]
+"73
+[; ;./I2C.h: 73:     rawSend(address);
+[e ( _rawSend (1 _address ]
+"74
+[; ;./I2C.h: 74:     rawSend(data);
+[e ( _rawSend (1 _data ]
+"75
+[; ;./I2C.h: 75:     stop_condition();
+[e ( _stop_condition ..  ]
+"76
+[; ;./I2C.h: 76: }
+[e :UE 345 ]
+}
+"78
+[; ;./I2C.h: 78: unsigned char rawRead(void) {
+[v _rawRead `(uc ~T0 @X0 1 ef ]
+{
+[e :U _rawRead ]
+[f ]
+"79
+[; ;./I2C.h: 79:     unsigned char Data;
+[v _Data `uc ~T0 @X0 1 a ]
+"80
+[; ;./I2C.h: 80:     wait();
+[e ( _wait ..  ]
+"81
+[; ;./I2C.h: 81:     RCEN = 1;
+[e = _RCEN -> -> 1 `i `b ]
+"82
+[; ;./I2C.h: 82:     wait();
+[e ( _wait ..  ]
+"83
+[; ;./I2C.h: 83:     Data = SSPBUF;
+[e = _Data _SSPBUF ]
+"84
+[; ;./I2C.h: 84:     sendNACK();
+[e ( _sendNACK ..  ]
+"85
+[; ;./I2C.h: 85:     return Data;
+[e ) _Data ]
+[e $UE 346  ]
+"86
+[; ;./I2C.h: 86: }
+[e :UE 346 ]
+}
+"88
+[; ;./I2C.h: 88: unsigned char readI2C(unsigned char address) {
+[v _readI2C `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _readI2C ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"89
+[; ;./I2C.h: 89:     start_condition();
+[e ( _start_condition ..  ]
+"90
+[; ;./I2C.h: 90:     rawSend(address + 1);
+[e ( _rawSend (1 -> + -> _address `i -> 1 `i `uc ]
+"91
+[; ;./I2C.h: 91:     unsigned char result = rawRead();
+[v _result `uc ~T0 @X0 1 a ]
+[e = _result ( _rawRead ..  ]
+"92
+[; ;./I2C.h: 92:     stop_condition();
+[e ( _stop_condition ..  ]
+"93
+[; ;./I2C.h: 93:     return result;
+[e ) _result ]
+[e $UE 347  ]
+"94
+[; ;./I2C.h: 94: }
+[e :UE 347 ]
+}
+"96
+[; ;./I2C.h: 96: void init_I2C_Slave(unsigned char address) {
+[v _init_I2C_Slave `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _init_I2C_Slave ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"97
+[; ;./I2C.h: 97:     TRISB0 = 1;
+[e = _TRISB0 -> -> 1 `i `b ]
+"98
+[; ;./I2C.h: 98:     TRISB1 = 1;
+[e = _TRISB1 -> -> 1 `i `b ]
+"100
+[; ;./I2C.h: 100:     SSPADD = address;
+[e = _SSPADD _address ]
+"101
+[; ;./I2C.h: 101:     SSPSTATbits.SMP = 1;
+[e = . . _SSPSTATbits 2 7 -> -> 1 `i `uc ]
+"102
+[; ;./I2C.h: 102:     SSPCON1bits.SSPM = 0b0110;
+[e = . . _SSPCON1bits 0 0 -> -> 6 `i `uc ]
+"103
+[; ;./I2C.h: 103:     SSPCON1bits.CKP = 1;
+[e = . . _SSPCON1bits 0 1 -> -> 1 `i `uc ]
+"104
+[; ;./I2C.h: 104:     SSPCON1bits.SSPEN = 1;
+[e = . . _SSPCON1bits 0 2 -> -> 1 `i `uc ]
+"106
+[; ;./I2C.h: 106:     GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"107
+[; ;./I2C.h: 107:     PEIE = 1;
+[e = _PEIE -> -> 1 `i `b ]
+"108
+[; ;./I2C.h: 108:     SSPIE = 1;
+[e = _SSPIE -> -> 1 `i `b ]
+"109
+[; ;./I2C.h: 109:     SSPIF = 0;
+[e = _SSPIF -> -> 0 `i `b ]
+"110
+[; ;./I2C.h: 110: }
+[e :UE 348 ]
+}
+"31 ./L3GD20.h
+[; ;./L3GD20.h: 31: unsigned char L3GD20_Read(unsigned char address) {
+[v _L3GD20_Read `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _L3GD20_Read ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[f ]
+"33
+[; ;./L3GD20.h: 33:     unsigned char data;
+[v _data `uc ~T0 @X0 1 a ]
+"36
+[; ;./L3GD20.h: 36:     start_condition();
+[e ( _start_condition ..  ]
+"37
+[; ;./L3GD20.h: 37:     rawSend(0b11010110);
+[e ( _rawSend (1 -> -> 214 `i `uc ]
+"38
+[; ;./L3GD20.h: 38:     rawSend(address);
+[e ( _rawSend (1 _address ]
+"39
+[; ;./L3GD20.h: 39:     restart_condition();
+[e ( _restart_condition ..  ]
+"40
+[; ;./L3GD20.h: 40:     rawSend(0b11010111);
+[e ( _rawSend (1 -> -> 215 `i `uc ]
+"41
+[; ;./L3GD20.h: 41:     data = rawRead();
+[e = _data ( _rawRead ..  ]
+"42
+[; ;./L3GD20.h: 42:     stop_condition();
+[e ( _stop_condition ..  ]
+"44
+[; ;./L3GD20.h: 44:     return data;
+[e ) _data ]
+[e $UE 349  ]
+"45
+[; ;./L3GD20.h: 45: }
+[e :UE 349 ]
+}
+"47
+[; ;./L3GD20.h: 47: void L3GD20_write(unsigned char address, unsigned char data) {
+[v _L3GD20_write `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _L3GD20_write ]
+[v _address `uc ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+[f ]
+"50
+[; ;./L3GD20.h: 50:     start_condition();
+[e ( _start_condition ..  ]
+"51
+[; ;./L3GD20.h: 51:     rawSend(0b11010110);
+[e ( _rawSend (1 -> -> 214 `i `uc ]
+"52
+[; ;./L3GD20.h: 52:     rawSend(address);
+[e ( _rawSend (1 _address ]
+"53
+[; ;./L3GD20.h: 53:     rawSend(data);
+[e ( _rawSend (1 _data ]
+"54
+[; ;./L3GD20.h: 54:     stop_condition();
+[e ( _stop_condition ..  ]
+"55
+[; ;./L3GD20.h: 55: }
+[e :UE 350 ]
+}
+"57
+[; ;./L3GD20.h: 57: void L3GD20_PowerDown() {
+[v _L3GD20_PowerDown `(v ~T0 @X0 1 ef ]
+{
+[e :U _L3GD20_PowerDown ]
+[f ]
+"59
+[; ;./L3GD20.h: 59: }
+[e :UE 351 ]
+}
+"61
+[; ;./L3GD20.h: 61: void L3GD20_sleep() {
+[v _L3GD20_sleep `(v ~T0 @X0 1 ef ]
+{
+[e :U _L3GD20_sleep ]
+[f ]
+"63
+[; ;./L3GD20.h: 63: }
+[e :UE 352 ]
+}
+"65
+[; ;./L3GD20.h: 65: void FIFO_setup() {
+[v _FIFO_setup `(v ~T0 @X0 1 ef ]
+{
+[e :U _FIFO_setup ]
+[f ]
+"67
+[; ;./L3GD20.h: 67: }
+[e :UE 353 ]
+}
+"69
+[; ;./L3GD20.h: 69: void L3GD20_restart_memory() {
+[v _L3GD20_restart_memory `(v ~T0 @X0 1 ef ]
+{
+[e :U _L3GD20_restart_memory ]
+[f ]
+"70
+[; ;./L3GD20.h: 70:     L3GD20_write(0b0100100, 0b10000000);
+[e ( _L3GD20_write (2 , -> -> 36 `i `uc -> -> 128 `i `uc ]
+"71
+[; ;./L3GD20.h: 71: }
+[e :UE 354 ]
+}
+"73
+[; ;./L3GD20.h: 73: void init_L3GD20() {
+[v _init_L3GD20 `(v ~T0 @X0 1 ef ]
+{
+[e :U _init_L3GD20 ]
+[f ]
+"87
+[; ;./L3GD20.h: 87:     _delay((unsigned long)((100)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"100
+[; ;./L3GD20.h: 100:     L3GD20_write(0b0100001, 0b00000110);
+[e ( _L3GD20_write (2 , -> -> 33 `i `uc -> -> 6 `i `uc ]
+"116
+[; ;./L3GD20.h: 116:     L3GD20_write(0b0100010, 0b00000000);
+[e ( _L3GD20_write (2 , -> -> 34 `i `uc -> -> 0 `i `uc ]
+"123
+[; ;./L3GD20.h: 123:     uint8_t tmp;
+[v _tmp `uc ~T0 @X0 1 a ]
+"124
+[; ;./L3GD20.h: 124:     tmp = L3GD20_Read(0b0100011);
+[e = _tmp ( _L3GD20_Read (1 -> -> 35 `i `uc ]
+"145
+[; ;./L3GD20.h: 145:     tmp |= 1 << 7;
+[e =| _tmp -> << -> 1 `i -> 7 `i `uc ]
+"146
+[; ;./L3GD20.h: 146:     tmp &= ~(1 << 6);
+[e =& _tmp -> ~ << -> 1 `i -> 6 `i `uc ]
+"147
+[; ;./L3GD20.h: 147:     tmp &= ~(1 << 5);
+[e =& _tmp -> ~ << -> 1 `i -> 5 `i `uc ]
+"148
+[; ;./L3GD20.h: 148:     tmp &= ~(1 << 4);
+[e =& _tmp -> ~ << -> 1 `i -> 4 `i `uc ]
+"149
+[; ;./L3GD20.h: 149:     L3GD20_write(0b0100011, tmp);
+[e ( _L3GD20_write (2 , -> -> 35 `i `uc _tmp ]
+"171
+[; ;./L3GD20.h: 171:     L3GD20_write(0b0100100, 0b00000001);
+[e ( _L3GD20_write (2 , -> -> 36 `i `uc -> -> 1 `i `uc ]
+"187
+[; ;./L3GD20.h: 187:     L3GD20_write(0b0100000, 0b00001111);
+[e ( _L3GD20_write (2 , -> -> 32 `i `uc -> -> 15 `i `uc ]
+"190
+[; ;./L3GD20.h: 190:     L3GD20_write(0b0100101, 0b00000001);
+[e ( _L3GD20_write (2 , -> -> 37 `i `uc -> -> 1 `i `uc ]
+"192
+[; ;./L3GD20.h: 192:     _delay((unsigned long)((100)*(48000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 48000000 `l `d .4000.0 `ul ]
+"193
+[; ;./L3GD20.h: 193: }
+[e :UE 355 ]
+}
+"195
+[; ;./L3GD20.h: 195: int readTemp() {
+[v _readTemp `(i ~T0 @X0 1 ef ]
+{
+[e :U _readTemp ]
+[f ]
+"196
+[; ;./L3GD20.h: 196:     return L3GD20_Read(0b0100110);
+[e ) -> ( _L3GD20_Read (1 -> -> 38 `i `uc `i ]
+[e $UE 356  ]
+"197
+[; ;./L3GD20.h: 197: }
+[e :UE 356 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"19 main.c
+[; ;main.c: 19: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"22
+[; ;main.c: 22:     TRISC0 = 0;
+[e = _TRISC0 -> -> 0 `i `b ]
+"23
+[; ;main.c: 23:     PORTCbits.RC0 = 0;
+[e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
+"24
+[; ;main.c: 24:     TRISB3 = 1;
+[e = _TRISB3 -> -> 1 `i `b ]
+"27
+[; ;main.c: 27:     init_UART(115200);
+[e ( _init_UART (1 -> 115200 `l ]
+"30
+[; ;main.c: 30:     init_I2C_Master(100000);
+[e ( _init_I2C_Master (1 -> 100000 `l ]
+"33
+[; ;main.c: 33:     init_L3GD20();
+[e ( _init_L3GD20 ..  ]
+"36
+[; ;main.c: 36:     while(1) {
+[e :U 359 ]
+{
+"40
+[; ;main.c: 40:         if(PORTBbits.RB3) {
+[e $ ! != -> . . _PORTBbits 0 3 `i -> 0 `i 361  ]
+{
+"42
+[; ;main.c: 42:             print(7);
+[e ( _print (1 -> -> 7 `i `uc ]
+"43
+[; ;main.c: 43:             print(77);
+[e ( _print (1 -> -> 77 `i `uc ]
+"44
+[; ;main.c: 44:             print(177);
+[e ( _print (1 -> -> 177 `i `uc ]
+"46
+[; ;main.c: 46:             L3GD20_Read(0b0100101);
+[e ( _L3GD20_Read (1 -> -> 37 `i `uc ]
+"49
+[; ;main.c: 49:             print(L3GD20_Read(0b0101001));
+[e ( _print (1 ( _L3GD20_Read (1 -> -> 41 `i `uc ]
+"51
+[; ;main.c: 51:             print(L3GD20_Read(0b0101011));
+[e ( _print (1 ( _L3GD20_Read (1 -> -> 43 `i `uc ]
+"53
+[; ;main.c: 53:             print(L3GD20_Read(0b0101101));
+[e ( _print (1 ( _L3GD20_Read (1 -> -> 45 `i `uc ]
+"56
+[; ;main.c: 56:             print(L3GD20_Read(0b0100110));
+[e ( _print (1 ( _L3GD20_Read (1 -> -> 38 `i `uc ]
+"59
+[; ;main.c: 59:         }
+}
+[e :U 361 ]
+"62
+[; ;main.c: 62:         if(received) {
+[e $ ! != -> _received `i -> 0 `i 362  ]
+{
+"63
+[; ;main.c: 63:             print(uartReceived);
+[e ( _print (1 _uartReceived ]
+"64
+[; ;main.c: 64:             received = 0;
+[e = _received -> -> 0 `i `a ]
+"65
+[; ;main.c: 65:         }
+}
+[e :U 362 ]
+"66
+[; ;main.c: 66:     }
+}
+[e :U 358 ]
+[e $U 359  ]
+[e :U 360 ]
+"68
+[; ;main.c: 68:     return;
+[e $UE 357  ]
+"69
+[; ;main.c: 69: }
+[e :UE 357 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"71
+[; ;main.c: 71: void __attribute__((picinterrupt(("")))) ISR(void) {
+[v _ISR `(v ~T21 @X0 1 ef ]
+{
+[e :U _ISR ]
+[f ]
+"73
+[; ;main.c: 73:     UART_ISR();
+[e ( _UART_ISR ..  ]
+"74
+[; ;main.c: 74: }
+[e :UE 363 ]
+}

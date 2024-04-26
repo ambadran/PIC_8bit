@@ -1,0 +1,94 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 7:50 PM
+ *
+ * interfacing dc motor using one button for speed and one switch for direction
+ *
+ */
+
+
+#include <xc.h>
+#include "config.h"
+
+#define _XTAL_FREQ 20000000
+
+void duty_cycle(int DC_value) {
+    CCP1X = (DC_value) & 1;
+    CCP1Y = (DC_value) & 2;
+    CCPR1L = (DC_value) >> 2;
+}
+
+void main() {
+    
+    // ** setting I/O pins ** //
+    TRISB3 = 0; // PWM pin
+    TRISB4 = 1; // duty cycle controlling button
+    TRISB5 = 1; // motor direction switch
+    TRISB1 = 0; // motor direction Pin 1 to input 1 in LM293
+    TRISB2 = 0; // motor direction Pin 2 to input 2 in LM293
+    
+    // ** setting CCP1 module for PWM mode ** //
+    
+    CCP1M3 = 1; // setting CCP module to PWM mode
+    CCP1M2 = 1;
+    
+    
+    T2CKPS0 = 0; // setting prescalar to 16
+    T2CKPS1 = 1;
+    
+    PR2 = 155; // setting PWM frequency to 4kHz
+    
+    TMR2ON = 1; // turning on TMR2
+    
+    int DC_counter = 0;
+    int DC_value = 0;
+    
+    // Main Routine
+    while(1) {
+        
+        duty_cycle(DC_value);
+        
+        // DC motor speed control
+        if(RB4){ // with every press duty cycle is increased by 25%
+            
+            DC_counter++;
+            
+            if(DC_counter == 0) {
+                DC_value = 0; // setting duty cycle to be 0%
+            }
+            if(DC_counter == 1) {
+                DC_value = 300;  // setting duty cycle to be 40%
+            }
+            if(DC_counter == 2) {
+                DC_value = 375;  // setting duty cycle to be 60%
+            }
+            if(DC_counter == 3) {
+                DC_value = 500;  // setting duty cycle to be 80%
+            }
+            if(DC_counter == 4) {
+                DC_value = 625;  // setting duty cycle to be 100%
+            }
+            if(DC_counter == 5) {
+                DC_value = 0;
+                DC_counter = 0;
+            }
+            __delay_ms(400); // waiting for finger to leave the button
+        }
+         
+        
+        // DC motor direction control
+        if(RB5) { // On - clockwise, Off - anticlockwise
+            RB1 = 0;
+            RB2 = 1;
+        }
+        else {
+            RB1 = 1;
+            RB2 = 0;
+        }
+        
+    }
+    
+    return;
+}

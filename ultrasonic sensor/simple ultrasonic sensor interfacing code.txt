@@ -1,0 +1,117 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ * The purpose of this code is to display the distance from the ultrasonic sensor in cm represented by 5 LEDs
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 16000000
+
+
+void main() {
+    
+    // setting the pins
+    TRISC3 = 0; // trigger pin
+    RC3 = 0;
+    TRISD0 = 0; // oscilloscope checking pin
+    RD0 = 0;
+    TRISD1 = 1; // echo pin
+    TRISD2 = 0; // indicating pin 1
+    TRISD3 = 0; // indicating pin 2
+    TRISC4 = 0; // indicating pin 3
+    TRISC5 = 0; // indicating pin 4
+    TRISC6 = 0; // indicating pin 5
+    RD2 = 0; // setting the indicating pins to 0 at first
+    RD3 = 0;
+    RC4 = 0;
+    RC5 = 0;
+    RC6 = 0;
+    
+    
+    // setting TMR1 module
+    TMR1CS = 0;
+    T1CKPS0 = 0;
+    T1CKPS1 = 0;
+
+    while(1) {
+        
+        // clearing the timer count
+        TMR1 = 0;
+        
+        // sending the trigger
+        RC3 = 1;
+        __delay_us(10);
+        RC3 = 0;
+        
+        // catching the signal
+        while(RD1 == 0){
+            // do nothing, just wait
+        }
+        TMR1ON = 1; // turn on timer once the echo pin is high
+        while(RD1 == 1) {
+            // do nothing , just wait
+        }
+        TMR1ON = 0; // turn off the timer once the echo pin is low
+        
+        
+        // calculating the distance
+        int distance = TMR1 / 233; // getting distance in cm
+        
+        
+        // showing the signal through LEDs
+        if(distance <= 1) {
+            RD2 = 0;
+            RD3 = 0;
+            RC4 = 0;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(distance > 1 && distance <= 2) {
+            RD2 = 1;
+            RD3 = 0;
+            RC4 = 0;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(distance > 2 && distance <= 3) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 0;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(distance > 3 && distance <= 4) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(distance > 4 && distance <= 5) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 1;
+            RC6 = 0;
+        }
+        if(distance > 5) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 1;
+            RC6 = 1;
+        }
+        
+        __delay_ms(100);
+        
+        
+    }
+    
+    return;
+}
+

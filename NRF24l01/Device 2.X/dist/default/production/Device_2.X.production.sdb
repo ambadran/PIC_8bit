@@ -1,0 +1,350 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+[d frameptr 4065 ]
+"2 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/ADC.h
+[v _deinitADC deinitADC `(v  1 e 1 0 ]
+"40 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/GPIO.h
+[v _setGPIO setGPIO `(v  1 e 1 0 ]
+"4 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/SPI.h
+[v _initSPI initSPI `(v  1 e 1 0 ]
+"41
+[v _rawSendSPI rawSendSPI `(v  1 e 1 0 ]
+"58
+[v _rawReadSPI rawReadSPI `(uc  1 e 1 0 ]
+"14 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/UART.h
+[v _initUART initUART `(v  1 e 1 0 ]
+"7 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"17 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"5 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/UART.h
+[v _uartdata uartdata `uc  1 e 1 0 ]
+"6
+[v _received received `a  1 e 1 0 ]
+[s S356 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2157 /Users/ambadran717/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8/pic/include/proc/pic18f2550.h
+[s S364 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S372 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S378 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S381 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S383 . 1 `S356 1 . 1 0 `S364 1 . 1 0 `S372 1 . 1 0 `S378 1 . 1 0 `S381 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES383  1 e 1 @3968 ]
+"4450
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4462
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4474
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4486
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S63 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"5351
+[s S68 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S75 . 1 `S63 1 . 1 0 `S68 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES75  1 e 1 @4032 ]
+[s S27 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"5426
+[s S30 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S37 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S42 . 1 `S27 1 . 1 0 `S30 1 . 1 0 `S37 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES42  1 e 1 @4033 ]
+[s S91 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"5530
+[s S94 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S98 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S105 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S108 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S111 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S114 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S117 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S120 . 1 `S91 1 . 1 0 `S94 1 . 1 0 `S98 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 `S114 1 . 1 0 `S117 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES120  1 e 1 @4034 ]
+"5612
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"5619
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S327 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5708
+[s S333 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S338 . 1 `S327 1 . 1 0 `S333 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES338  1 e 1 @4038 ]
+[s S186 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"5841
+[s S189 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S192 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S201 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S206 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S212 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S217 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S220 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S223 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S228 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S233 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S238 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S244 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S249 . 1 `S186 1 . 1 0 `S189 1 . 1 0 `S192 1 . 1 0 `S201 1 . 1 0 `S206 1 . 1 0 `S212 1 . 1 0 `S217 1 . 1 0 `S220 1 . 1 0 `S223 1 . 1 0 `S228 1 . 1 0 `S233 1 . 1 0 `S238 1 . 1 0 `S244 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES249  1 e 1 @4039 ]
+"6013
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7794
+[v _ADFM ADFM `VEb  1 e 0 @32263 ]
+"7806
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"7833
+[v _BF BF `VEb  1 e 0 @32312 ]
+"7842
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"7845
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"8001
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"8535
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8553
+[v _GO_DONE GO_DONE `VEb  1 e 0 @32273 ]
+"8955
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"9111
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"9114
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"9189
+[v _SENDB SENDB `VEb  1 e 0 @32099 ]
+"9210
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"9222
+[v _SSPIE SSPIE `VEb  1 e 0 @31979 ]
+"9225
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"9243
+[v _SSPOV SSPOV `VEb  1 e 0 @32310 ]
+"9291
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9468
+[v _TRISA2 TRISA2 `VEb  1 e 0 @31890 ]
+"9471
+[v _TRISA3 TRISA3 `VEb  1 e 0 @31891 ]
+"9474
+[v _TRISA4 TRISA4 `VEb  1 e 0 @31892 ]
+"9477
+[v _TRISA5 TRISA5 `VEb  1 e 0 @31893 ]
+"9483
+[v _TRISB0 TRISB0 `VEb  1 e 0 @31896 ]
+"9486
+[v _TRISB1 TRISB1 `VEb  1 e 0 @31897 ]
+"9516
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"9519
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"9522
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"9564
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"9582
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"17 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"44
+} 0
+"40 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/GPIO.h
+[v _setGPIO setGPIO `(v  1 e 1 0 ]
+{
+"47
+} 0
+"41 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/SPI.h
+[v _rawSendSPI rawSendSPI `(v  1 e 1 0 ]
+{
+[v rawSendSPI@data data `uc  1 a 1 wreg ]
+[v rawSendSPI@data data `uc  1 a 1 wreg ]
+"43
+[v rawSendSPI@data data `uc  1 a 1 0 ]
+"56
+} 0
+"14 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/UART.h
+[v _initUART initUART `(v  1 e 1 0 ]
+{
+"29
+[v initUART@num1 num1 `us  1 a 2 18 ]
+"14
+[v initUART@baud_rate baud_rate `l  1 p 4 14 ]
+"43
+} 0
+"7 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"4 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/SPI.h
+[v _initSPI initSPI `(v  1 e 1 0 ]
+{
+[v initSPI@mode mode `a  1 a 1 wreg ]
+[v initSPI@mode mode `a  1 a 1 wreg ]
+[v initSPI@freq_mode freq_mode `uc  1 p 1 0 ]
+"13
+[v initSPI@mode mode `a  1 a 1 1 ]
+"39
+} 0
+"2 /Users/ambadran717/electronics/interfacing/NRF24l01/Device 2.X/ADC.h
+[v _deinitADC deinitADC `(v  1 e 1 0 ]
+{
+"5
+} 0

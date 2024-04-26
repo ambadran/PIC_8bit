@@ -1,0 +1,96 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 16000000
+
+int counter = 0;
+
+void step(int step_num) {
+    if(step_num == 1) {
+        RC0 = 1;
+        RD0 = 0;
+        RC3 = 0;
+        RC2 = 0;
+    }
+    else if(step_num == 2) {
+        RC0 = 0;
+        RD0 = 0;
+        RC3 = 1;
+        RC2 = 0;
+    }
+    else if(step_num == 3) {
+        RC0 = 0;
+        RD0 = 1;
+        RC3 = 0;
+        RC2 = 0;
+    }
+    else if(step_num == 4) {
+        RC0 = 0;
+        RD0 = 0;
+        RC3 = 0;
+        RC2 = 1;
+    }
+
+    return;
+}
+
+
+void main() {
+    
+    // interrupts
+    GIE = 1;
+    PEIE = 1;
+    INTE = 1;
+    
+    // GPIO pins
+    TRISB0 = 1; // IRQ pin for rotary encoder
+    TRISD1 = 1; // rotary encoder direction checking pin
+    TRISD2 = 1; // rotary encoder button
+    TRISD3 = 0; // oscilloscope checking pin
+    RD3 = 0;
+    TRISC0 = 0; // first stepper motor pin
+    TRISD0 = 0; // second stepper motor pin
+    TRISC3 = 0; // third stepper motor pin
+    TRISC2 = 0; // forth stepper motor pin
+    
+    // IRQ pin
+    INTEDG = 1;
+    
+    while(1) {
+        
+        if(counter == 0) {
+            counter = 4;
+        }
+        if(counter == 5) {
+            counter = 1;
+        }
+        step(counter);
+    }
+    
+    return;
+}
+
+void __interrupt() ISR(void) {
+    
+    if(INTF) {
+        
+        if(RD1){
+            counter++;
+        }
+        else
+            counter--;
+        
+        __delay_ms(40);
+        
+        INTF = 0;
+    }
+    
+}

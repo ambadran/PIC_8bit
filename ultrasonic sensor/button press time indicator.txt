@@ -1,0 +1,102 @@
+/*
+ * File:   main.c
+ * Author: AbdulRahman Badran
+ *
+ * Created on August 29, 2019, 8:49 PM
+ */
+
+
+#include <xc.h>
+#include "configrations_.h"
+
+#define _XTAL_FREQ 16000000
+
+int counter = 0;
+
+void main() {
+    
+    // setting the pins
+    TRISD0 = 0; // oscilloscope checking pin
+    RD0 = 0;
+    TRISD1 = 1; // button pin
+    TRISD2 = 0; // indicating pin 1
+    TRISD3 = 0; // indicating pin 2
+    TRISC4 = 0; // indicating pin 3
+    TRISC5 = 0; // indicating pin 4
+    TRISC6 = 0; // indicating pin 5
+    RD2 = 0; // setting the indicating pins to 0 at first
+    RD3 = 0;
+    RC4 = 0;
+    RC5 = 0;
+    RC6 = 0;
+    
+    
+    // setting TMR1 interrupt for overflows
+    GIE = 1;
+    PEIE = 1;
+    TMR1IE = 1;
+    
+    // setting TMR1 module
+    TMR1CS = 0;
+    T1CKPS0 = 0;
+    T1CKPS1 = 0;
+    TMR1 = 0;
+    
+    while(1) {
+        
+        while(RD1){
+            RD0 = 1;
+            TMR1ON = 1;
+        }
+        RD0 = 0;
+        TMR1ON = 0;
+        counter = 0;
+        
+    }
+    
+    return;
+}
+
+void __interrupt() ISR(void) {
+    if(TMR1IF) {
+        counter++;
+        
+        if(counter <= 6) {
+            RD2 = 1;
+            RD3 = 0;
+            RC4 = 0;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(counter > 6 && counter <= 18) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 0;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(counter > 18 && counter <= 31) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 0;
+            RC6 = 0;
+        }
+        if(counter > 31 && counter <= 49) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 1;
+            RC6 = 0;
+        }
+        if(counter > 49 && counter <= 62) {
+            RD2 = 1;
+            RD3 = 1;
+            RC4 = 1;
+            RC5 = 1;
+            RC6 = 1;
+        }
+        
+        TMR1IF = 0;
+    }
+}
