@@ -1,8 +1,9 @@
 #ifndef INCLUDES_H
 #define INCLUDES_H
 
-
+#include <stdio.h>
 #include <stdint.h>
+#include <string.h>
 
 #include "fuses.h"
 #include "config.h"
@@ -12,6 +13,8 @@
 #include "timer.h"
 #include "comparator.h"
 #include "adc.h"
+
+#include "lcd.h"
 
 #ifdef MQ6_TURN
 #include "mq6.h"

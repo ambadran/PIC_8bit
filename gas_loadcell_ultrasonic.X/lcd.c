@@ -1,5 +1,6 @@
 #include "includes.h"
 
+
 void lcd_cmd(uint8_t CMD) {
   // Select Command Register
   RS = 0;
@@ -11,6 +12,7 @@ void lcd_cmd(uint8_t CMD) {
   EN = 0; 
   __delay_us(LCD_EN_DELAY);
 }
+
 
 void lcd_init(void) {
 
@@ -33,8 +35,11 @@ void lcd_init(void) {
   lcd_cmd(0x0C);
   lcd_cmd(0x00);
   lcd_cmd(0x06);
+  __delay_ms(200);
   
   lcd_clear();
+  __delay_ms(200);
+
 
 }
 

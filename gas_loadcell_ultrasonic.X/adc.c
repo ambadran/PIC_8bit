@@ -38,5 +38,5 @@ uint16_t readADC(uint8_t pin) {
     while(GO_DONE) {
         // waiting for the ADC conversion to finish
     }
-    return (ADRESH << 8) + ADRESL; // reading the analog input
+    return (uint16_t)((ADRESH << 8) + ADRESL); // reading the analog input
 }

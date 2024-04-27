@@ -1,8 +1,11 @@
 #ifndef LCD_H
 #define LCD_H
 
+#define LCD_ROWS 2
+#define LCD_COLUMNS 16
 #define LCD_EN_DELAY 500
-#define lcd_set_D_pins(value) ( LCD_DATA = value | (LCD_DATA&0b11110000) )
+/* #define lcd_set_D_pins(value) ( LCD_DATA = (value<<4) | (LCD_DATA&0b00001111) ) */
+#define lcd_set_D_pins(value) ( LCD_DATA = (value<<4) | (LCD_DATA&0b00001111))
 
 void lcd_cmd(uint8_t CMD);
 void lcd_clear(void);
